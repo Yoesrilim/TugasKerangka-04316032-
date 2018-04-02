@@ -1,0 +1,29 @@
+	.container
+	{max-width: none; width: 100%;}
+		div[class*="col-"]
+	{
+		border: 2px solid black;
+	}
+	
+
+	/*.kotak1 {
+		background-color:red;
+		width: 80px;
+		height: 90px;
+		padding-top: 20px;
+		margin: 20px;
+	}
+	.kotak2 {
+		background-color: yellow;
+		width: 30px;
+		padding-top:20px;
+		margin-left: 50px;
+	}
+	.kotak3{
+
+	}
+	.container{
+		background-color: green;
+		width: 100%;
+		height:100%;
+	}
