@@ -1,0 +1,35 @@
+.container
+	{max-width: none; width: 100%;}
+		div[class*="col-"]{
+		border: 2px; solid black;
+	}
+
+	.kotak1 {
+		background-color: yellow;
+		padding-top:20px;
+	}
+
+	.konten{
+			height: 800px;
+		}
+
+		.gambar{
+			height: 300px;
+		}
+		.kotak1 {
+			padding-top:20px;
+			padding-bottom: 20px;
+		}
+		.kotak2{
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		#BG{ 
+		 	background-color: #c4f9fc;
+		 }
+
+		 #MG{
+		 		margin-right: 50px;
+		 		margin-left: 50px;
+		 	}
