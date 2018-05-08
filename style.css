@@ -1,7 +1,7 @@
 .container
     {max-width: none; width: 100%;}
         div[class*="col-"]{
-        border: 0px; solid black;
+        border: 1px; solid black;
     }
 
 /* Add a black background color to the top navigation */
