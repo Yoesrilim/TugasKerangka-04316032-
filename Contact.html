@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>CP1</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +33,28 @@
   <li>Email : yoesrilcnblue@gmail.com</li>
   <li>Tempat : Buntu adventure, Jl. BajulIjo, no 10/83</li>
 </ul>
+
+<p>Waktu pemesanan : </p>
+
+<button onclick="myFunction()">Klik</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var greeting;
+    var time = new Date().getHours();
+    if (time < 10) {
+        greeting = "Pagi";
+    } else if (time < 20) {
+        greeting = "Siang";
+    } else {
+        greeting = "Sore";
+    }
+document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
